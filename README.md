@@ -7,3 +7,5 @@ pip install requests<br>
 pip install termcolor<br>
 3) Enter admin pages in the pages variable in the admin_finder.py file<br> 
 Start the program. Enter the url and enjoy 😎<br>
+<h4>Bonus 🎁</h4>
+admin_pages.txt file has lots of admin panel urls
