@@ -3,8 +3,13 @@
 <h4>How to use ?</h4>
 1) Download Python www.python.org<br>
 2) Download the Request and termcolor libraries<br> 
-pip install requests<br>
-pip install termcolor<br>
+    * #### Linux
+       ```bash
+       ❯ pip install requests
+       ❯ pip install termcolor
+       ```
+
+
 3) Enter admin pages in the pages variable in the admin_finder.py file<br> 
 Start the program. Enter the url and enjoy 😎<br>
 <h4>Bonus 🎁</h4>
