@@ -1,16 +1,26 @@
-<h2><center>A program that finds the admin panel of sites 👨‍💻</center></h1>
-<p>❗ I am not responsible for your actions</p>
-<h4>How to use ?</h4>
-1) Download Python www.python.org<br>
-2) Download the Request and termcolor libraries<br> 
-    * #### Linux
-       ```bash
-       ❯ pip install requests
-       ❯ pip install termcolor
-       ```
+## A Script that finds the admin panel of sites 👨‍💻
+❗ I am not responsible for your actions<br />
+How to use ?<br />
+Download Python www.python.org 
+         
+* #### Download
+```bash
+> git clone https://github.com/AbdulazizSherzodjanov/AdminPageFinder.git
+> cd admin_finder
+```  
+Download the Request and termcolor libraries
+* #### Linux
+```bash
+> pip3 install requests
+> pip3 install termcolor
+```
+* #### Windows
+```bash
+> pip install request
+> pip install termcolor
+```
 
-
-3) Enter admin pages in the pages variable in the admin_finder.py file<br> 
-Start the program. Enter the url and enjoy 😎<br>
-<h4>Bonus 🎁</h4>
+Enter admin pages in the pages variable in the admin_finder.py file<br />
+Start the program. Enter the url and enjoy 😎<br />
+Bonus 🎁<br />
 admin_pages.txt file has lots of admin panel urls
