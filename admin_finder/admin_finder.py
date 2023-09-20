@@ -1,5 +1,4 @@
 import requests
-
 from termcolor import colored
 print("""
    _       _           _           ___ _           _
@@ -8,8 +7,9 @@ print("""
 /  _  \ (_| | | | | | | | | | | / /   | | | | | (_| |  __/ |
 \_/ \_/\__,_|_| |_| |_|_|_| |_| \/    |_|_| |_|\__,_|\___|_|
 """)
-url = input("Enter url : ")
-pages = ['about','admin','login']
+f = open('admin_pages.txt','r')
+url = input("[*] Enter url ( example : https://google.com ) >: ")
+pages = f
 for i in pages:
   url2 = (f"{url}/{i}")
   req = requests.post(url2)
@@ -18,3 +18,4 @@ for i in pages:
     print(colored(f"Page not found >> {a} >>> {url2}",'red'))
   else:
     print(colored(f"Page found >> {url2}",'green'))
+    break
