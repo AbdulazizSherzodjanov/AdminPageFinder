@@ -16,11 +16,10 @@ Download the Request and termcolor libraries
 ```
 * #### Windows
 ```bash
-> pip install request
+> pip install requests
 > pip install termcolor
 ```
 
-Enter admin pages in the pages variable in the admin_finder.py file<br />
 Start the program. Enter the url and enjoy 😎<br />
 Bonus 🎁<br />
 admin_pages.txt file has lots of admin panel urls
