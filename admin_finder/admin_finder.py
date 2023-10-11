@@ -6,7 +6,10 @@ print("""
  //_\\ / _` | '_ ` _ \| | '_ \   / _\ | | '_ \ / _` |/ _ \ '__|
 /  _  \ (_| | | | | | | | | | | / /   | | | | | (_| |  __/ |
 \_/ \_/\__,_|_| |_| |_|_|_| |_| \/    |_|_| |_|\__,_|\___|_|
-""")
+\n""")
+print("Script by Abdulaziz\n")
+print("Github : https://github.com/AbdulazizSherzodjanov \n")
+print("Telegram : https://t.me/PyCoder_off1cial")
 f = open('admin_pages.txt','r')
 url = input("[*] Enter url ( example : https://google.com ) >: ")
 pages = f
